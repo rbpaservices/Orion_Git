@@ -1,0 +1,115 @@
+     A                                      DSPSIZ(27 132)                                          
+                                                                                                    
+     A          R SEDITOR                   CA03(03)                                                
+     A                                      ROLLUP(66)                                              
+     A                                      ROLLDOWN(44)                                            
+     A                                      CA05(05)                                                
+     A                                      CSRLOC(LIN_NO POS_NO)                                   
+     A                                      CA17(17)                                                
+     A                                      CA18(18)                                                
+     A                                      CA06(06)                                                
+     A                                      CA21(21)                                                
+     A            LIN_NO         3  0H                                                              
+     A            POS_NO         3  0H                                                              
+                                                                                                    
+     A                                  2  5'FFedit'                                                
+     A                                      COLOR(RED)                                              
+     A            SMBRNAME      10   O  2 32                                                        
+     A            SLIBNAME      10   O  2 21                                                        
+                                                                                                    
+     A            LINE1        100   B  5 14CHECK(LC)                                               
+     A                                      CHGINPDFT(LC)                                           
+     A            LINE2        100   B  6 14CHECK(LC)                                               
+     A                                      CHGINPDFT(LC)                                           
+     A            LINE3        100   B  7 14CHECK(LC)                                               
+     A                                      CHGINPDFT(LC)                                           
+     A            LINE4        100   B  8 14CHECK(LC)                                               
+     A                                      CHGINPDFT(LC)                                           
+     A            LINE5        100   B  9 14CHECK(LC)                                               
+     A                                      CHGINPDFT(LC)                                           
+     A            LINE6        100   B 10 14CHECK(LC)                                               
+     A                                      CHGINPDFT(LC)                                           
+     A            LINE7        100   B 11 14CHECK(LC)                                               
+     A                                      CHGINPDFT(LC)                                           
+     A            LINE8        100   B 12 14CHECK(LC)                                               
+     A                                      CHGINPDFT(LC)                                           
+     A            LINE9        100   B 13 14CHECK(LC)                                               
+     A                                      CHGINPDFT(LC)                                           
+     A            LINE10       100   B 14 14CHECK(LC)                                               
+     A                                      CHGINPDFT(LC)                                           
+     A            LINE11       100   B 15 14CHECK(LC)                                               
+     A                                      CHGINPDFT(LC)                                           
+     A            LINE12       100   B 16 14CHECK(LC)                                               
+     A                                      CHGINPDFT(LC)                                           
+     A            LINE13       100   B 17 14CHECK(LC)                                               
+     A                                      CHGINPDFT(LC)                                           
+     A            LINE14       100   B 18 14CHECK(LC)                                               
+     A                                      CHGINPDFT(LC)                                           
+     A            LINE15       100   B 19 14CHECK(LC)                                               
+     A                                      CHGINPDFT(LC)                                           
+     A            LINE16       100   B 20 14CHECK(LC)                                               
+     A                                      CHGINPDFT(LC)                                           
+     A            LINE17       100   B 21 14CHECK(LC)                                               
+     A                                      CHGINPDFT(LC)                                           
+     A            LINE18       100   B 22 14CHECK(LC)                                               
+     A                                      CHGINPDFT(LC)                                           
+     A            LINE19       100   B 23 14CHECK(LC)                                               
+     A                                      CHGINPDFT(LC)                                           
+     A            LINE20       100   B 24 14CHECK(LC)                                               
+     A                                      CHGINPDFT(LC)                                           
+     A            LINE21       100   B 25 14CHECK(LC)                                               
+     A                                      CHGINPDFT(LC)                                           
+     A            LINE22       100   B 26 14CHECK(LC)                                               
+     A                                      CHGINPDFT(LC)                                           
+                                                                                                    
+     A                                  4 14'1 -----| 1 ------- 2 ------- 3 ----                    
+     A                                      ---- 4 ------- 5 ------- 6 ------- -                    
+     A                                      7 ------- 8 ------- 9 ------- 0'                        
+     A                                      COLOR(WHT)                                              
+     A            NUM1           5   B  5  5COLOR(WHT)                                              
+     A            NUM2           5   B  6  5COLOR(WHT)                                              
+     A            NUM3           5   B  7  5COLOR(WHT)                                              
+     A            NUM4           5   B  8  5COLOR(WHT)                                              
+     A            NUM5           5   B  9  5COLOR(WHT)                                              
+     A            NUM6           5   B 10  5COLOR(WHT)                                              
+     A            NUM7           5   B 11  5COLOR(WHT)                                              
+     A            NUM8           5   B 12  5COLOR(WHT)                                              
+     A            NUM9           5   B 13  5COLOR(WHT)                                              
+     A            NUM10          5   B 14  5COLOR(WHT)                                              
+     A            NUM11          5   B 15  5COLOR(WHT)                                              
+     A            NUM12          5   B 16  5COLOR(WHT)                                              
+     A            NUM13          5   B 17  5COLOR(WHT)                                              
+     A            NUM14          5   B 18  5COLOR(WHT)                                              
+     A            NUM15          5   B 19  5COLOR(WHT)                                              
+     A            NUM16          5   B 20  5COLOR(WHT)                                              
+     A            NUM17          5   B 21  5COLOR(WHT)                                              
+     A            NUM18          5   B 22  5COLOR(WHT)                                              
+     A            NUM19          5   B 23  5COLOR(WHT)                                              
+     A            NUM20          5   B 24  5COLOR(WHT)                                              
+     A            NUM21          5   B 25  5COLOR(WHT)                                              
+     A            NUM22          5   B 26  5COLOR(WHT)                                              
+                                                                                                    
+     A          R SLOAD                     WINDOW(5 35 12 57)                                      
+     A                                  3 11'Load Member'                                           
+     A                                  6 21'Library'                                               
+     A                                  7 21'SPF'                                                   
+     A                                  8 21'Member'                                                
+     A            LLIB          10   B  6 31                                                        
+     A            LSPF          10   B  7 31                                                        
+     A            LMBR          10   B  8 31                                                        
+                                                                                                    
+     A          R SFIND                     WINDOW(17 78 8 49)                                      
+     A                                      CA12(12)                                                
+     A                                  2  6'Find'                                                  
+     A                                      COLOR(BLU)                                              
+     A                                  4  9'Value'                                                 
+     A            FINDVAL       80   B  5  6CNTFLD(40)                                              
+     A                                      CHGINPDFT(LC)                                           
+     A                                      COLOR(WHT)                                              
+     A          R SEXIT                     WINDOW(18 77 7 50)                                      
+     A                                      CA12(12)                                                
+     A                                  2  7'Save and Exit'                                         
+     A                                      COLOR(BLU)                                              
+     A                                  4 18'Y/N/C'                                                 
+     A                                      COLOR(WHT)                                              
+     A            EXITVAL        1   B  4 32                                                         
